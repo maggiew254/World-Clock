@@ -36,7 +36,8 @@ select {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.date {
+.london-date,
+.los-angeles-date {
   opacity: 0.6;
   border-bottom: 1px dashed grey;
   margin-bottom: 18px;
@@ -49,6 +50,7 @@ select {
 }
 
 .city-time small {
+  display: flex-end;
   font-size: 14px;
   line-height: 30px;
   vertical-align: middle;
