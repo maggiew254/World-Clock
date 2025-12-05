@@ -17,37 +17,45 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
-        <option value="">Please pick a city</option>
-        <option value="">Nairobi</option>
-        <option value="">San Francisco</option>
-        <option value="">Madrid</option>
+
+      <select id="cities">
+        <option value="Europe/London">Please pick a city</option>
+        <option value="Africa/Nairobi">Nairobi</option>
+        <option value="Asia/Istanbul">Istanbul</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <option value="Australia/Sydney">Sydney</option>
       </select>
-      <div class="city-time" id="los-angeles">
-        <h2 class="city">
-          Los Angeles
-          <img
-            src="src/flag-icons-main/flag-icons-main/flags/4x3/us.svg"
-            alt="US Flag"
-            width="25"
-          />
-        </h2>
-        <div class="time"></div>
+
+      <div id = "displayCities">
+        <div class = "city-time" id="los-angeles">
+          <h2 class="city">
+            Los Angeles
+            <img
+              src="src/flag-icons-main/flag-icons-main/flags/4x3/us.svg"
+              alt="US Flag"
+              width="25"
+            />
+          </h2>
+          <div class="time"></div>
+        </div>
+
+        <div class="los-angeles-date"></div>
+
+        <div class="city-time" id="london">
+          <h2 class="city">
+            London
+            <img
+              src="src/flag-icons-main/flag-icons-main/flags/4x3/gb.svg"
+              alt="British Flag"
+              width="25"
+            />
+          </h2>
+          <div class="time"></div>
+        </div>
+        <div class="london-date"></div>
       </div>
-      <div class="los-angeles-date"></div>
-      <div class="city-time" id="london">
-        <h2 class="city">
-          London
-          <img
-            src="src/flag-icons-main/flag-icons-main/flags/4x3/gb.svg"
-            alt="British Flag"
-            width="25"
-          />
-        </h2>
-        <div class="time"></div>
-      </div>
-      <div class="london-date"></div>
-    </div>
+    
+  
     <footer>
       This project was coded by
       <a href="https://github.com/maggiew254" target="_blank"
